@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">OfekVentura_Project</string>
+    <string name="action_settings">Settings</string>
+	<string name="color_spinner_prompt">Color</string>
+
+	<string-array name="colors_array">
+		<item>Red</item>
+		<item>Green</item>
+		<item>Blue</item>
+		<item>Cyan</item>
+		<item>Magenta</item>
+		<item>Yellow</item>
+		<item>Black</item>
+		<item>Gray</item>
+		<item>White</item>
+	</string-array>
+
+	<string name="width_spinner_prompt">Width</string>
+
+	<string-array name="widths_array">
+		<item>Thin</item>
+		<item>Thinish</item>
+		<item>Medium</item>
+		<item>Thickish</item>
+		<item>Thick</item>
+	</string-array>
+
+	<string-array name="rounds_array">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+	<string-array name="draw_time_second_array">
+
+		<item>60</item>
+		<item>70</item>
+		<item>80</item>
+		<item>90</item>
+		<item>100</item>
+		<item>110</item>
+		<item>120</item>
+		<item>130</item>
+		<item>140</item>
+		<item>150</item>
+		<item>160</item>
+		<item>170</item>
+		<item>180</item>
+		<item>190</item>
+		<item>200</item>
+		<item>210</item>
+	</string-array>
+</resources>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/lightbluebg"
+    android:layout_height="match_parent">
+      <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0" 
+            android:progressDrawable="@drawable/timer_progress_drawable"
+            android:orientation="horizontal" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Spinner
+            android:id="@+id/colorSpinner"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+    />
+        <Spinner
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/widthSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.0dp" 
+           
+          />
+        <ImageButton
+            android:id="@+id/clearButton"
+            android:clickable="true"
+            android:background="@drawable/clear"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginLeft="19.0dp" />
+
+
+    </LinearLayout>
+   
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_tvHint"
+        android:layout_gravity="center"
+        android:textSize="13dp"
+        style="bold"
+        android:fontFamily="casual"
+        android:text="__ __ __ __"/>
+    <OfekVentura_Project.FingerPaintCanvasView
+        android:id="@+id/canvasView"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_tvGuess"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:text="No Guess Yet!"/>
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        <EditText
+            android:id="@+id/game_etGuess"
+            android:layout_width="247.0dp"
+            style="bold"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter your guess here"
+        
+        />
+      <Button
+            android:id="@+id/game_btnGuess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guess"
+            
+        />
+            </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+       >
+
+
+    
+        
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/game_btnBack"/>
+    </LinearLayout>
+
+</LinearLayout>

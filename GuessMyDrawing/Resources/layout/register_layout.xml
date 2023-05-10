@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/night"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fc99"
+        android:fontFamily="cursive"
+        android:id="@+id/tvRegHeadline"
+        
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rbnormal"
+        android:gravity="center_vertical"
+        android:fontFamily="serif-monospace"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etUserReg"
+      />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColorHint="#000"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:background="@drawable/rbnormal"
+        android:gravity="center_vertical"
+        android:fontFamily="serif-monospace"
+        android:password="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/etPassReg1"
+ />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Confirm Password"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:background="@drawable/rbnormal"
+        android:gravity="center_vertical"
+        android:password="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:id="@+id/etPassReg2"
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:fontFamily="serif-monospace"
+        android:textDirection="ltr"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:background="@drawable/rbnormal"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etEmailReg"
+      />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:clickable="true"
+        android:id="@+id/tvLogin"
+        android:textColor="#fc99"
+        android:text="Click To Login"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="show password"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/btnEyeReg"
+               />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="REGISTER"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="#000"
+        android:id="@+id/btnSubmitReg" 
+        
+/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#000"
+        android:text="Password Must Contain:"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textColor="#ff00"
+        android:id="@+id/min8Reg"
+        android:text="Minimum 8 characters"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff00"
+        android:id="@+id/ucReg"
+        android:text="A Uppercase Letter"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textColor="#ff00"
+        android:id="@+id/anReg"
+        android:text="A Number"/>
+
+</LinearLayout>

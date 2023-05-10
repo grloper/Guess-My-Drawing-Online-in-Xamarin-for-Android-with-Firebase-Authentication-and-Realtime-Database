@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/after"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/lobby_tvCode"
+        android:layout_height="wrap_content"
+        android:text="Your Room Code Is: XXXXX"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/lobby_btnStart"
+
+        android:layout_height="wrap_content"
+        android:text="Start"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/lobby_btnBack"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+    <TextView
+        android:layout_width="wrap_content"
+            android:textSize="25dp"
+        android:layout_gravity="left"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Rounds"/>
+    <Spinner
+        android:id="@+id/spRounds"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="41.0dp"
+        /> 
+        <TextView
+        android:layout_width="wrap_content"
+         android:textSize="25dp"
+        android:layout_gravity="left"
+         android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Drawing Time In Second"/>
+    <Spinner
+        android:spinnerMode="dialog"
+        android:id="@+id/spDraw"
+        android:layout_width="match_parent"
+        android:layout_height="41.0dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/lobby_tvPlayers"
+        android:layout_height="match_parent"
+        android:text="Players List:"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/night"
+    android:gravity="center_horizontal">
+
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How To Play?"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fc99"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:text="Guess my drawing is a multiplayer game, Create a game room and share the room code with your friends. As the host, you will be given a word to draw on the canvas. Other players will need to guess what you are drawing in the given time limit. Type your guess as quickly as possible to gain the most points. Once the round is over, the game will end and the player with the highest score wins. Remember to have fun and be creative with your drawings!"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:backgroundTint="#7D3C98"
+        android:id="@+id/inst_btnBack"
+        android:text="Go Back"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/night"
+    android:gravity="center_horizontal">
+
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fc99"
+        android:fontFamily="cursive"
+        
+        />
+         <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello:"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/menu_tvName"
+        android:textStyle="bold"
+        android:textColor="#fc99"
+        android:fontFamily="sans-serif-smallcaps"
+        
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:backgroundTint="#7D3C98"
+        android:id="@+id/menu_btnCreate"
+        android:text="Create Lobby"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        tools:ignore="HardcodedText" 
+        android:layout_width="350dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:id="@+id/menu_etCode"
+          android:background="@drawable/rbnormal"
+        android:layout_height="47dp"
+        android:hint="Room Code: XXXXX"
+        android:inputType="textCapCharacters" 
+
+         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        tools:ignore="HardcodedText" 
+        android:backgroundTint="#33FF3F"
+        android:id="@+id/menu_btnJoin"
+        android:text="Join Lobby"/>
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:backgroundTint="#7D3C98"
+        tools:ignore="HardcodedText" 
+        android:id="@+id/menu_btnLogOut"
+        android:text="LogOut"/>
+
+</LinearLayout>

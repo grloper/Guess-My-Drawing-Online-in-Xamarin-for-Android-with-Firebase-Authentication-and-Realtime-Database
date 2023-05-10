@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/night"
+
+    >
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="25dp"
+            android:text="tvBatteryStat"
+            android:textColor="#f27"
+            android:id="@+id/tvBatteryStat"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login To Account"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fc99"
+        android:fontFamily="cursive"
+        android:id="@+id/tvHeadline"
+        
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:gravity="center_vertical"
+        android:fontFamily="serif-monospace"
+        android:textDirection="ltr"
+        android:inputType="text"
+        android:textColorHint="#000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/rbnormal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etUsername"
+      />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:fontFamily="serif-monospace"
+        android:textDirection="ltr"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/rbnormal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etEmail"
+      />
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:textColorHint="#000"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password"
+        android:background="@drawable/rbnormal"
+        android:textColor="#000"
+        android:gravity="center_vertical"
+        android:fontFamily="serif-monospace"
+        android:password="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/etPass" />     
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"   
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="serif-monospace"
+        android:text="Save password"
+        android:id="@+id/cbPassword"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:clickable="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tvReset"
+        android:textColor="#fc99"
+        android:text="Reset Password"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"/>  
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:clickable="true"
+        android:id="@+id/tvRegister"
+        android:textColor="#fc99"
+        android:layout_marginTop="10dp"
+        android:text="Click To Register"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:clickable="true"
+        android:id="@+id/tvGuest"
+        android:layout_marginTop="10dp"
+        android:textColor="#fc99"
+        android:text="Click To Login As Guest"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="show password"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/btnEye"
+               />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:id="@+id/btnLog" 
+        
+/>
+
+
+
+</LinearLayout>
