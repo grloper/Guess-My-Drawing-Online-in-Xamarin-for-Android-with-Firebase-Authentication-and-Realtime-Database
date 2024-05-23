@@ -19,3 +19,32 @@ Custom canvas view for painting with tools such as brush, eraser, and color pick
 Multiplayer feature with real-time drawing and guessing using Firebase Realtime Database
 Intuitive user interface with clear instructions and feedback
 Responsive and efficient design with smooth animations and fast loading time
+
+# Login screen
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/2ea42a4e-7e38-468c-bc4e-b0a6bbfa1d0b)
+
+# Register screen, with regex checks
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/1bc22111-e8b0-465c-aa17-9a4f65dce250)
+
+# Lobby Controller, either create or join
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/3b9f52ee-28cc-4650-82a8-4b8ff14fe050)
+
+# Inside Lobby
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/103f4243-c3a0-4ebd-8afd-4e744e75ba8b)
+
+# Inside Lobby as the other Player
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/37e2cafd-7463-4970-be1d-0462dd66f0fc)
+
+# In Game Online - with firebase realtime database
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/60a55cd7-1c64-4fe1-b141-061fb51dacbe)
+
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/13577ddd-c6aa-4905-8240-745a40cd62fc)
+
+
+# After guessed "apple" where the word is "rock"
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/06d27793-7d1b-4254-9ef0-665d1ff567e7)
+
+# Guessing "Rock" 1/2
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/ba04ea58-58ce-45da-8a80-cf7436767dc6)
+
+# 2/2
