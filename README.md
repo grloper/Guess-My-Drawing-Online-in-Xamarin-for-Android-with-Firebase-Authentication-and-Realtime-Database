@@ -1,4 +1,7 @@
 # Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database
+
+# Link reference: https://www.youtube.com/watch?v=CYKMeD-CZjA
+
 This is a full-featured Guess My Drawing app for Android built with Xamarin and C# and designed with xml. The app includes a login and registration system using Firebase Authentication, which allows users to create and manage their accounts securely. The app also includes a multiplayer feature, where one user can draw and the others can guess each other's drawings in real-time using Firebase Realtime Database.
 
 The app features a custom canvas view for painting and a variety of tools such as brush, eraser, and color picker. The drawing toolset allows the user to create unique paintings that can be saved and shared with other users. The multiplayer feature enables users to play with friends or other players from around the world.
