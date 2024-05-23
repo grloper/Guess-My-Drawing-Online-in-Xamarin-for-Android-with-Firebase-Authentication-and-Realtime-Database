@@ -48,3 +48,4 @@ Responsive and efficient design with smooth animations and fast loading time
 ![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/ba04ea58-58ce-45da-8a80-cf7436767dc6)
 
 # 2/2
+![image](https://github.com/grloper/Guess-My-Drawing-App-in-Xamarin-for-Android-with-Firebase-Authentication-and-Realtime-Database/assets/72247422/48dff77a-4620-4372-b3e6-3b2eeadbd1b1)
